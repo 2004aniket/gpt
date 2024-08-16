@@ -8,7 +8,7 @@ os.environ["MISTRAL_API_KEY"] = 'kgYDKvLmZ6tPlU2CyFFY2S642npGBHEM'
 from langchain_mistralai import ChatMistralAI
 from langchain import LLMChain,PromptTemplate
 st.title("prototype")
-model = ChatMistralAI(model="mistral-large-latest")
+model = ChatMistralAI(model="codestral-latest")
 prompt=st.text_input("enter the text")
 template = ''' 
           CONTEXT: {scenario}
